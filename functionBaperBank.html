@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fucntion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <main>
+        <section class="bg-amber-200 h-9/12 w-10/12 mx-auto p-12 mt-12 rounded-lg">
+            <div class="flex justify-center gap-4 text-white font-bold">
+                <div class="w-1/4 bg-lime-600 p-3 rounded-lg ">
+                    <h1 class="text-2xl ">Deposit</h1>
+                    <h1>$ <span id="depositText">00</span></h1>
+                </div>
+                <div class="w-1/4 bg-teal-500 p-3 rounded-lg">
+                    <h1 class="text-2xl ">widthdraw</h1>
+                    <h1>$ <span id="widthdrawText">00</span></h1>
+                </div> 
+                <div class="w-1/4 bg-violet-600 p-3 rounded-lg">
+                    <h1 class="text-2xl ">Balence</h1>
+                    <h1>$ <span id="balence">1250</span></h1>
+                </div>
+            </div>
+
+
+            <div class="flex justify-center gap-4 mt-10 text-white font-bold">
+                <div class="w-4/12 bg-fuchsia-500 p-3 rounded-lg">
+                    <h1 class="text-2xl ">Deposit</h1>
+                    <input id="depositInput" class="rounded-lg p-2 mt-3 text-black" type="number" placeholder="Depost"> <br> 
+                    <input id="deposit" class="bg-blue-400 py-2 px-3 text-white mt-2 rounded-lg" type="button" value="Deposit">
+                </div> 
+
+
+                <div class="w-4/12 bg-yellow-800 p-3 rounded-lg">
+                    <h1 class="text-2xl ">widthdraw</h1>
+                    <input id="widthdrawInput" class="rounded-lg p-2 mt-3 text-black" type="number" placeholder="widthdraw"> <br> 
+                    <input id="widthdraw" class="bg-blue-400 py-2 px-3 text-white mt-2 rounded-lg" type="button" value="widthdraw">
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="deposit.js"></script>
+    <script src="widthraw.js"></script>
+</body>
+</html>
